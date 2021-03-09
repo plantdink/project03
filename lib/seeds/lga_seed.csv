@@ -1,0 +1,33 @@
+state,name,category,description,source,yr2011,yr2012,yr2013,yr2014,yr2015,yr2016,yr2017,yr2018,yr2019,yr2020,yr2021
+Victoria,Alpine,Resident Population,Working Age Population,ABS,,,,7444,7470,7550,7587,7608,7620,,
+Victoria,Alpine,Resident Population,Persons - Total,ABS,,,,12355,12429,12578,12638,12730,12814,,
+Victoria,Alpine,Residential Property Prices,House sale price,ABS,,,,290000,287000,300000,340000,370000,415000,,
+Victoria,Alpine,Personal Income,Mean total income,ABS,,,,42147,43753,44247,45463,,,,
+Victoria,Alpine,Total Household Income,Median weekly household income,ABS,571,,,,,676,,,,,
+Victoria,Alpine,Rent and Mortgage Payments,Average monthly household rental payment,ABS,855,,,,,1165,,,,,
+Victoria,Alpine,Rent and Mortgage Payments,Average monthly household mortgage payment,ABS,1443,,,,,1442,,,,,
+Victoria,Alpine,Historical Yearly EGM Expenditure,Expenditure per Local Government Area,VICGOV,3618983,3280220,3012874,3119936,3120455,2517169,2571123,2457035,2304602,1892293,
+Victoria,Ararat,Resident Population,Working Age Population,ABS,,,,7193,7220,7269,7191,7192,7192,,
+Victoria,Ararat,Resident Population ,Persons - Total,ABS,,,,11560,11644,11745,11756,11795,11845,,
+Victoria,Ararat,Residential Property Prices,House sale price,ABS,,,,199001,200000,207500,195000,190000,193500,,
+Victoria,Ararat,Personal Income,Mean total income,ABS,,,,45003,45525,45459,49342,,,,
+Victoria,Ararat,Total Household Income,Median weekly household income,ABS,588,,,,,674,,,,,
+Victoria,Ararat,Rent and Mortgage Payments,Average monthly household rental payment,ABS,700,,,,,834,,,,,
+Victoria,Ararat,Rent and Mortgage Payments,Average monthly household mortgage payment,ABS,1183,,,,,1188,,,,,
+Victoria,Ararat,Historical Yearly EGM Expenditure,Expenditure per Local Government Area,VICGOV,10717934,11219410,10141415,10350645,10037879,9050693,9105582,9720508,9200584,7004272,
+Victoria,Ballarat,Resident Population,Working Age Population,ABS,,,,64466,65146,66044,67099,68124,69504,,
+Victoria,Ballarat,Resident Population,Persons - Total,ABS,,,,99914,101479,103500,105422,107324,109505
+Victoria,Ballarat,Residential Property Prices,Houses sale price,ABS,,,,300000,300000,310000,325000,350000,389262.5
+Victoria,Ballarat,Personal Income,Mean total income,ABS,,,,51368,52709,54393,55631,,
+Victoria,Ballarat,Total Household Income,Median weekly household income,653,,,746,,,
+Victoria,Ballarat,Rent and Mortgage Payments,Average monthly household rental payment,ABS,909,,,1081,,,,,
+Victoria,Ballarat,Rent and Mortgage Payments,Average monthly household mortgage payment,ABS,1461,,,1496,,,
+Victoria,Ballarat,Historical Yearly EGM Expenditure,Expenditure per Local Government Area,VICGOV,55697119,55938278,52533913,53642391,53623993,54611247,54568804,55763965,57540687,43713216,
+Victoria,Banyule,Resident Population,Working Age Population,ABS,,,,81958,82203,82611,83297,83718,84453
+Victoria,Banyule,Resident Population,Persons - Total,ABS,,,,125107,126088,127447,129115,130250,131631
+Victoria,Banyule,Residential Property Prices,House sale price,ABS,,,,600000,665000,765000,850000,900000,850000
+Victoria,Banyule,Personal Income,Mean total income,ABS,,,,61870,64275,65721,67431,,
+Victoria,Banyule,Total Household Income,Median weekly household income,ABS,856,,,1002,,,
+Victoria,Banyule,Rent and Mortgage Payments,Average monthly household rental payment,ABS,1260,,,1497,,,
+Victoria,Banyule,Rent and Mortgage Payments,Average monthly household mortgage payment,ABS,2015,,,2073,,,
+Victoria,Banyule,Historical Yearly EGM Expenditure,Expenditure per Local Government Area,VICGOV,58356211,57804745,55261443,55019402,54512648,55979946,55820854,58536906,57758108,42485587,
