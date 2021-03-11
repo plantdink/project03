@@ -1,11 +1,15 @@
-<h1>Data Viz</h1>
+<div class="jumbotron w-100 py-5 mx-auto">
+  <h1>Data Viz</h1>
+  <h2>Helping you to compare multiple government data sets</h2>
 
-<h2>Helping to compare multiple government data sets</h2>
+  <div class="form-group row">
+    <form action="/local_gov_areas/show">
+      <label class="col-md-2 col-form-label form-control-label text-muted">
+        Search for your Local Government Area:
+        <input type="search" name="name" required class="form-control" placeholder="Ararat">
+      </label>
+      <button class='btn btn-primary'>Search</button>
+    </form>
+  </div>
 
-<form action="/local_gov_areas/show">
-  <label>
-    Search for your Local Government Area:
-    <input type="search" name="name" required placeholder="Ararat">
-  </label>
-  <button>Search</button>
-</form>
+</div>

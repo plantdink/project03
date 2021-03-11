@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataViz</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+    <body>
+      <%= yield %>
+    </body>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container-fluid align-items-center">
+      Data by Region presents a range of data for all of Australia. Data are available for Local Government Areas, Statistical Areas Levels 2 - 4, Greater Capital Cities, States and Australia. Data by Region is intended for users interested in the characteristics of regions and in comparing regions across Australia. Data are in a time series, where available.
+    </div>
+  </footer>
 </html>

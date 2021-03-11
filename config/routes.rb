@@ -4,8 +4,4 @@ Rails.application.routes.draw do
 
   resources :local_gov_areas, :only => [:index, :show]
 
-  namespace :charts do
-    get "new-lga"
-  end
-
 end

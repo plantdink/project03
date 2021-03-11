@@ -1,5 +1,59 @@
-<h1><%= params[:name] %> Local Government Area </h1>
+<div class="class card border-primary h-100">
+  <div class="class card-body d-flex flex-column align-items-center">
 
-  <div>
-    <%= bar_chart [@output[7]] %>
-  </div>
+    <h1><%= params[:name] %> LGA overview</h1>
+      <div class="container-fluid">
+
+        <div class="row">
+          <h2>Population</h2>
+          <h4>Total resident population vs Working age population (15 - 64)</h4>
+            <%= column_chart [
+              @output[1],
+              @output[0],
+              xtitle: "Year",
+              ytitle: "No of people"
+              ],
+              thousands: ","
+             %>
+        </div>
+
+        <div class="row">
+          <h3>Income vs House purchase cost</h3>
+            <%= column_chart [
+              @output[2],
+              @output[3],
+              xtitle: "Year",
+              ytitle: "Dollars"
+              ],
+              thousands: ","
+            %>
+          </div>
+
+          <div class="row">
+            <h3>Weekly Income vs Monthly Housing costs</h3>
+              <%= column_chart [
+                @output[4],
+                @output[5],
+                @output[6],
+                xtitle: "Year",
+                ytitle: "Dollars"
+                ],
+                thousands: ","
+              %>
+          </div>
+
+          <div class="row">
+            <h3>Total amount lost in Electronic Gaming Machines</h3>
+              <%= line_chart [
+                @output[7],
+                @output[2],
+                xtitle: "Year",
+                ytitle: "($) Dollars"
+                ],
+                thousands: ","
+              %>
+          </div>
+
+        </div>
+    </div>
+</div>
